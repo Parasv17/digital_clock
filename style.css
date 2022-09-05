@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* html{
+    background: url(usgs-hoS3dzgpHzw-unsplash.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(usgs-hoS3dzgpHzw-unsplash.jpg) no-repeat center/cover  fixed; 
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    
+    background-size: cover ;
+
+}
+.heading{
+    color: aliceblue;
+    font-size: 2rem;
+}
+.clock{
+    display: flex;
+    position: relative;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    /* width: 150px;
+    height: 100px; */
+    
+    
+}
+.number{
+    text-align: center;
+    font-size: 6vw;
+    padding: 20px;
+    /* background:#3e8d9f72 ; */
+    background: #2c63888a;
+    width: 15vw;
+    /* height: 16vh; */
+    /* border-radius: 10px; */
+}
+.text{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #90283aea;
+    font-size:1.9vw;
+    padding: 5px;
+   
+    /* border-radius: 10px; */
+    
+}
+.ampm{
+    color: aliceblue;
+    bottom: 01px;
+    position: absolute;
+    font-size: 2.9vh;
+    /* background: #2c6388; */
+    /* padding: 2px;
+    height: 35px;
+    width: 40px; */
+    
+}
