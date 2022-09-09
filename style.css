@@ -1,13 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 /* html{
-    background: url(usgs-hoS3dzgpHzw-unsplash.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+   
 } */
 body{
     display: flex;
@@ -17,14 +14,14 @@ body{
     height: 100vh;
     background: url(usgs-hoS3dzgpHzw-unsplash.jpg) no-repeat center/cover  fixed; 
     font-family: 'Poiret One', cursive;
-    font-weight: 900;
+    font-weight:900 ;
     
     background-size: cover ;
 
 }
 .heading{
     color: aliceblue;
-    font-size: 2rem;
+    font-size:3rem ;
 }
 .clock{
     display: flex;
@@ -34,42 +31,52 @@ body{
 .box{
     display: flex;
     flex-direction: column;
-    margin: 2px;
-    /* width: 150px;
-    height: 100px; */
+    align-items: center;
+    /* justify-content: center; */
+    background: #2c63888a;
+    margin: 0.3em;
+    width:12rem;
+    height: 15rem;
+     
+   
     
     
 }
 .number{
     text-align: center;
-    font-size: 6vw;
-    padding: 20px;
-    /* background:#3e8d9f72 ; */
-    background: #2c63888a;
-    width: 15vw;
-    /* height: 16vh; */
-    /* border-radius: 10px; */
+    
+    font-size: 5.9rem;
+    padding:0.2em 0.2em ;
+    margin-top: 0.2em;
+    
+    
+    
+    
 }
 .text{
-    
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #90283aea;
-    font-size:1.9vw;
-    padding: 5px;
+    font-size:2rem;
+    padding:0.2em 0 ;
+    bottom: 0px;
+    width: inherit;
    
-    /* border-radius: 10px; */
     
 }
+.box_am{
+    position: absolute;
+    bottom:2.5rem;
+    right: -0.1em;;
+
+}
+
 .ampm{
     color: aliceblue;
-    bottom: 01px;
-    position: absolute;
-    font-size: 2.9vh;
-    /* background: #2c6388; */
-    /* padding: 2px;
-    height: 35px;
-    width: 40px; */
     
+    position: absolute;
+    font-size:2.45rem;
+  
 }
